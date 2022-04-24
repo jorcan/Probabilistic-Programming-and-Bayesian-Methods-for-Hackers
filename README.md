@@ -2,35 +2,35 @@
 #### *Using Python and PyMC*
 
 
-The Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunately, due to mathematical intractability of most Bayesian models, the reader is only shown simple, artificial examples. This can leave the user with a *so-what* feeling about Bayesian inference. In fact, this was the author's own prior opinion.
+El método bayesiano es el enfoque natural de la inferencia, pero está oculto a los lectores detrás de los capítulos del análisis lento y matemático. El texto típico en la inferencia de Bayesia involucra de dos a tres capítulos sobre la teoría de la probabilidad, luego ingresa la inferencia bayesiana. Desafortunadamente, debido a la intractabilidad matemática de la mayoría de los modelos bayesianos, el lector solo se muestran ejemplos simples y artificiales. Esto puede dejar al usuario con un * así que * Sentirse de la inferencia bayesiana. De hecho, esta fue la propia opinión anterior del autor.
 
-After some recent success of Bayesian methods in machine-learning competitions, I decided to investigate the subject again. Even with my mathematical background, it took me three straight-days of reading examples and trying to put the pieces together to understand the methods. There was simply not enough literature bridging theory to practice. The problem with my misunderstanding was the disconnect between Bayesian mathematics and probabilistic programming. That being said, I suffered then so the reader would not have to now. This book attempts to bridge the gap.
+Después de un éxito reciente de los métodos bayesianos en las competiciones de aprendizaje automático, decidí investigar el tema nuevamente. Incluso con mi fondo matemático, me tomó tres días seguidos de lectura de ejemplos y tratando de juntar las piezas para comprender los métodos. Simplemente no había suficiente teoría de la literatura para practicar. El problema con mi malentendido fue la desconexión entre las matemáticas bayesianas y la programación probabilística. Dicho esto, sufrí que el lector no tendría que ahora. Este libro intenta cerrar la brecha.
 
-If Bayesian inference is the destination, then mathematical analysis is a particular path towards it. On the other hand, computing power is cheap enough that we can afford to take an alternate route via probabilistic programming. The latter path is much more useful, as it denies the necessity of mathematical intervention at each step, that is, we remove often-intractable mathematical analysis as a prerequisite to Bayesian inference. Simply put, this latter computational path proceeds via small intermediate jumps from beginning to end, where as the first path proceeds by enormous leaps, often landing far away from our target. Furthermore, without a strong mathematical background, the analysis required by the first path cannot even take place.
+Si la inferencia bayesiana es el destino, entonces el análisis matemático es un camino particular hacia ella. Por otro lado, la potencia de computación es lo suficientemente barata de que podamos permitirnos tomar una ruta alternativa a través de la programación probabilística. El último camino es mucho más útil, ya que niega la necesidad de la intervención matemática en cada paso, es decir, eliminamos el análisis matemático a menudo intratable como un requisito previo para la inferencia bayesiana. En pocas palabras, este último camino computacional procede a través de pequeños saltos intermedios de principio a fin, donde la primera ruta procede de enormes saltos, a menudo aterrizando lejos de nuestro objetivo. Además, sin un fondo matemático fuerte, el análisis requerido por la primera ruta ni siquiera puede tener lugar.
 
-*Bayesian Methods for Hackers* is designed as an introduction to Bayesian inference from a computational/understanding-first, and mathematics-second, point of view. Of course as an introductory book, we can only leave it at that: an introductory book. For the mathematically trained, they may cure the curiosity this text generates with other texts designed with mathematical analysis in mind. For the enthusiast with less mathematical background, or one who is not interested in the mathematics but simply the practice of Bayesian methods, this text should be sufficient and entertaining.
+* Los métodos bayesianos para hackers * están diseñados como una introducción a la inferencia bayesiana de un punto de vista computacional / comprensivo: primero, y matemáticas, segundo, punto de vista. Por supuesto, como un libro introductorio, solo podemos dejarlo al respecto: un libro de introducción. Para los matemáticamente capacitados, pueden curar la curiosidad, este texto genera con otros textos diseñados en mente con el análisis matemático. Para los entusiastas, con menos antecedentes matemáticos, o uno que no está interesado en las matemáticas, sino simplemente la práctica de los métodos bayesianos, este texto debe ser suficiente y entretenido.
 
-The choice of PyMC as the probabilistic programming language is two-fold. As of this writing, there is currently no central resource for examples and explanations in the PyMC universe. The official documentation assumes prior knowledge of Bayesian inference and probabilistic programming. We hope this book encourages users at every level to look at PyMC. Secondly, with recent core developments and popularity of the scientific stack in Python, PyMC is likely to become a core component soon enough.
+La elección de PYMC, ya que el lenguaje de programación probabilístico es dos veces. En este momento, actualmente no hay recurso central para ejemplos y explicaciones en el universo PYMC. La documentación oficial asume el conocimiento previo de la inferencia bayesiana y la programación probabilística. Esperamos que este libro alienta a los usuarios a todos los niveles para mirar a PYMC. En segundo lugar, con los recientes desarrollos básicos y la popularidad de la pila científica en Python, es probable que PyMC se convierta en un componente central lo suficientemente pronto.
 
-PyMC does have dependencies to run, namely NumPy and (optionally) SciPy. To not limit the user, the examples in this book will rely only on PyMC, NumPy, SciPy and Matplotlib.
+PyMC tiene dependencias para ejecutar, a saber, numerable y (opcionalmente) Scipy. Para no limitar al usuario, los ejemplos en este libro se basarán solo en PYMC, NOMBRY, SCIPY y MATPLOTLIB.
 
 
-Printed Version by Addison-Wesley
+Versión impresa por Addison-Wesley
 ------
 <div style="float: right; margin-left: 30px;"><img title="Bayesian Methods for Hackersg"style="float: right;margin-left: 30px;" src="http://www-fp.pearsonhighered.com/assets/hip/images/bigcovers/0133902838.jpg" align=right height = 200 /></div>
 
-**Bayesian Methods for Hackers is now available as a printed book!** You can pick up a copy on [Amazon](http://www.amazon.com/Bayesian-Methods-Hackers-Probabilistic-Addison-Wesley/dp/0133902838). What are the differences between the online version and the printed version?
+**¡Los métodos bayesianos para hackers ahora están disponibles como un libro impreso! ** Puedes recoger una copia en [Amazon](http://www.amazon.com/Bayesian-Methods-Hackers-Probabilistic-Addison-Wesley/dp/0133902838). ¿Cuáles son las diferencias entre la versión en línea y la versión impresa?
 
- - Additional Chapter on Bayesian A/B testing
- - Updated examples
- - Answers to the end of chapter questions
- - Additional explanation, and rewritten sections to aid the reader. 
+ - Capítulo adicional sobre las pruebas de Bayesian A / B
+ - Ejemplos actualizados
+ - Respuestas al final de las preguntas del capítulo.
+ - Explicación adicional, y secciones reescritas para ayudar al lector.
 
 
-Contents
+Contenido
 ------
 
-See the project homepage [here](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) for examples, too.
+Ver la página de inicio del proyecto [here](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) for examples, too.
 
 
 The below chapters are rendered via the *nbviewer* at
@@ -41,31 +41,31 @@ Interactive notebooks + examples can be downloaded by cloning!
 
 * [**Prologue:**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Prologue/Prologue.ipynb) Why we do it.
 
-* [**Chapter 1: Introduction to Bayesian Methods**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Ch1_Introduction_PyMC2.ipynb)
+* [**Capítulo 1: Introducción a los métodos bayesianos.**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter1_Introduction/Ch1_Introduction_PyMC2.ipynb)
     Introduction to the philosophy and practice of Bayesian methods and answering the question, "What is probabilistic programming?" Examples include:
     - Inferring human behaviour changes from text message rates
     
-* [**Chapter 2: A little more on PyMC**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/Ch2_MorePyMC_PyMC2.ipynb)
+* [**Capítulo 2: un poco más sobre PYMC**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter2_MorePyMC/Ch2_MorePyMC_PyMC2.ipynb)
     We explore modeling Bayesian problems using Python's PyMC library through examples. How do we create Bayesian models? Examples include:
     - Detecting the frequency of cheating students, while avoiding liars
     - Calculating probabilities of the Challenger space-shuttle disaster
     
-* [**Chapter 3: Opening the Black Box of MCMC**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/Ch3_IntroMCMC_PyMC2.ipynb)
+* [**Capítulo 3: Apertura de la caja negra de MCMC**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter3_MCMC/Ch3_IntroMCMC_PyMC2.ipynb)
     We discuss how MCMC operates and diagnostic tools. Examples include:
     - Bayesian clustering with mixture models
     
-* [**Chapter 4: The Greatest Theorem Never Told**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/Ch4_LawOfLargeNumbers_PyMC2.ipynb)
+* [**Capítulo 4: El teorema más grande nunca le dijo**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter4_TheGreatestTheoremNeverTold/Ch4_LawOfLargeNumbers_PyMC2.ipynb)
     We explore an incredibly useful, and dangerous, theorem: The Law of Large Numbers. Examples include:
     - Exploring a Kaggle dataset and the pitfalls of naive analysis
     - How to sort Reddit comments from best to worst (not as easy as you think)
     
-* [**Chapter 5: Would you rather lose an arm or a leg?**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/Ch5_LossFunctions_PyMC2.ipynb)
+* [**Capítulo 5: ¿Prefieres perder un brazo o una pierna?**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter5_LossFunctions/Ch5_LossFunctions_PyMC2.ipynb)
     The introduction of loss functions and their (awesome) use in Bayesian methods.  Examples include:
     - Solving the *Price is Right*'s Showdown
     - Optimizing financial predictions
     - Winning solution to the Kaggle Dark World's competition
     
-* [**Chapter 6: Getting our *prior*-ities straight**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Ch6_Priors_PyMC2.ipynb)
+* [**CAPÍTULO 6: Obtención de las prioridades**](http://nbviewer.jupyter.org/urls/raw.github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/master/Chapter6_Priorities/Ch6_Priors_PyMC2.ipynb)
     Probably the most important chapter. We draw on expert opinions to answer questions. Examples include:
     - Multi-Armed Bandits and the Bayesian Bandit solution.
     - What is the relationship between data sample size and prior?
@@ -133,67 +133,67 @@ The contents are updated synchronously as commits are made to the book. You can 
 3. PDFs are the least-preferred method to read the book, as PDFs are static and non-interactive. If PDFs are desired, they can be created dynamically using the [nbconvert](https://github.com/jupyter/nbconvert) utility.
  
 
-Installation and configuration
+Instalacion y configuracion
 ------
 
 
-If you would like to run the Jupyter notebooks locally, (option 1. above), you'll need to install the following:
+Si desea ejecutar los portátiles de Jupyter a nivel local, (Opción 1. arriba), deberá instalar lo siguiente:
 
--  Jupyter is a requirement to view the ipynb files. It can be downloaded [here](http://jupyter.org/install.html) 
-- Necessary packages are PyMC, NumPy, SciPy and Matplotlib.   
-   -  For Linux/OSX users, you should not have a problem installing the above, [*except for Matplotlib on OSX*](http://www.penandpants.com/2012/02/24/install-python/).
-   -  For Windows users, check out [pre-compiled versions](http://www.lfd.uci.edu/~gohlke/pythonlibs/) if you have difficulty. 
-   - also recommended, for data-mining exercises, are [PRAW](https://github.com/praw-dev/praw) and [requests](https://github.com/kennethreitz/requests). 
-- New to Python or Jupyter, and help with the namespaces? Check out [this answer](http://stackoverflow.com/questions/12987624/confusion-between-numpy-scipy-matplotlib-and-pylab). 
+- Jupyter es un requisito para ver los archivos IPYNB. Se puede descargar [aquí] (http://jupyter.org/install.html)
+- Los paquetes necesarios son PYMC, adormecidos, escaptos y matplotlib.
+   - Para usuarios de Linux / OSX, no debe tener un problema al instalar lo anterior, [* excepto MATPLOTLIB en OSX *] (http://www.penandpants.com/2012/2012/02/24/Install-python/).
+   - Para los usuarios de Windows, consulte [Versiones pre-compiladas] (http://www.lfd.uci.edu/~gohlke/pythonlibs/) Si tiene dificultades.
+   - También se recomienda, para los ejercicios de minería de datos, son [PRAW] (https://github.com/praw-dev/praw) y [solicitudes] (https://github.com/kennethreitz/requests).
+- ¿Nuevo en Python o Jupyter, y ayuda con los espacios de nombres? Echa un vistazo a [esta respuesta] (http://stackoverflow.com/questions/12987624/confusion-between-numpy-scipy-matplotlib-and-pylab).
 
--  In the styles/ directory are a number of files that are customized for the notebook. 
-These are not only designed for the book, but they offer many improvements over the 
-default settings of matplotlib and the Jupyter notebook. The in notebook style has not been finalized yet.
+- En los estilos / directorio son una serie de archivos que se personalizan para el cuaderno.
+Estos no solo están diseñados para el libro, sino que ofrecen muchas mejoras sobre el
+Configuración predeterminada de MATPLOTLIB y el portátil JUPYTER. El estilo de cuaderno no se ha finalizado todavía.
 
 
 
-Development
+Desarrollo
 ------
 
-This book has an unusual development design. The content is open-sourced, meaning anyone can be an author. 
-Authors submit content or revisions using the GitHub interface. 
+Este libro tiene un diseño de desarrollo inusual. El contenido es de origen abierto, lo que significa que cualquiera puede ser un autor.
+Los autores envían contenido o revisiones utilizando la interfaz GitHub.
 
-### How to contribute
+### Cómo contribuir
 
-#### What to contribute?
+#### ¿Qué contribuir?
 
--  The current chapter list is not finalized. If you see something that is missing (MCMC, MAP, Bayesian networks, good prior choices, Potential classes etc.),
-feel free to start there. 
--  Cleaning up Python code and making code more PyMC-esque
--  Giving better explanations
--  Spelling/grammar mistakes
--  Suggestions
--  Contributing to the Jupyter notebook styles
+- La lista actual del capítulo no se finaliza. Si ve algo que falta (MCMC, mapa, redes bayesianas, buenas opciones previas, clases potenciales, etc.),
+Siéntase libre de comenzar allí.
+- limpiando el código de Python y haciendo código más PYMC-ESQUE
+- Dando mejores explicaciones.
+- Errores de ortografía / gramática
+- Sugerencias
+- Contribuyendo a los estilos de cuadernos Jupyter.
 
 
-#### Commiting
+#### commitiendo
 
--  All commits are welcome, even if they are minor ;)
--  If you are unfamiliar with Github, you can email me contributions to the email below.
+- Todos los comisiones son bienvenidos, incluso si son menores;)
+- Si no está familiarizado con GitHub, puede enviarme un correo electrónico a las contribuciones al correo electrónico a continuación.
 
-Reviews
+Comentarios
 ------
-*these are satirical, but real*
+* Estos son satíricos, pero real *
 
-"No, but it looks good" - [John D. Cook](https://twitter.com/JohnDCook/status/359672133695184896)
+"No, pero se ve bien" - [John D. Cook] (https://twitter.com/johndcook/status/359672133695184896)
 
-"I ... read this book ... I like it!" - [Andrew Gelman](http://www.andrewgelman.com/2013/07/21/bayes-related)
+"Yo ... Lea este libro ... ¡Me gusta!" - [Andrew Gelman] (http://www.andrewgelman.com/2013/07/21/Bayes-Related)
 
-"This book is a godsend, and a direct refutation to that 'hmph! you don't know maths, piss off!' school of thought...
-The publishing model is so unusual. Not only is it open source but it relies on pull requests from anyone in order to progress the book. This is ingenious and heartening" - [excited Reddit user](http://www.reddit.com/r/Python/comments/1alnal/probabilistic_programming_and_bayesian_methods/)
+"¡Este libro es una bendición, y una refutación directa a esa 'HMPH! ¡No conoces a Matemáticas, meablos!' escuela de pensamiento...
+El modelo de publicación es tan inusual. No solo está abierto, sino que se basa en solicitudes de tracción de cualquier persona para progresar el libro. Esto es ingenioso y alentador "- [Usuario excitado de Reddit] (http://www.reddit.com/r/python/comments/1alnal/probababilist_programming_and_bayesian_methods/)
 
 
 
-Contributions and Thanks
+Contribuciones y gracias
 -----
 
 
-Thanks to all our contributing authors, including (in chronological order):
+Gracias a todos nuestros autores contribuyentes, incluyendo (en orden cronológico):
 
 Authors | | | |
 --- | --- | --- | ---
@@ -211,19 +211,17 @@ Authors | | | |
  [Kleptine](https://github.com/Kleptine)   |  [Stuart Layton](https://github.com/slayton)  |  [Antonino Ingargiola](https://github.com/tritemio)  |  [vsl9](https://github.com/vsl9)
   [Tom Christie](https://github.com/tom-christie)  |  [bclow](https://github.com/bclow)  |  [Simon Potter](http://sjp.co.nz/)  | [Garth Snyder](https://github.com/GarthSnyder)
  [Daniel Beauchamp](http://twitter.com/pushmatrix)  |  [Philipp Singer](http://www.philippsinger.info)  | [gbenmartin](https://github.com/gbenmartin) | [Peadar Coyle](https://twitter.com/Springcoil)
+Nos gustaría agradecer a la comunidad de Python para construir una arquitectura increíble.Nos gustaría agradecer al
+Comunidad de estadísticas para construir una arquitectura increíble.
 
-We would like to thank the Python community for building an amazing architecture. We would like to thank the 
-statistics community for building an amazing architecture. 
+De manera similar, el libro solo es posible debido a la biblioteca [PYMC] (http://github.com/pymc-devs/pymc).Un gran agradecimiento a los centros de PyMC: Chris Fonnesbeck, Anand Patil, David Huard y John Salvatier.
 
-Similarly, the book is only possible because of the [PyMC](http://github.com/pymc-devs/pymc) library. A big thanks to the core devs of PyMC: Chris Fonnesbeck, Anand Patil, David Huard and John Salvatier.
-
-One final thanks. This book was generated by Jupyter Notebook, a wonderful tool for developing in Python. We thank the IPython/Jupyter 
-community for developing the Notebook interface. All Jupyter notebook files are available for download on the GitHub repository. 
-
+Una última gracias.Este libro fue generado por Jupyter Notebook, una maravillosa herramienta para desarrollar en Python.Agradecemos al Ipython / Jupyter
+Comunidad para desarrollar la interfaz portátil.Todos los archivos de portátiles Jupyter están disponibles para su descarga en el repositorio de GitHub.
 
 
-#### Contact
-Contact the main author, Cam Davidson-Pilon at cam.davidson.pilon@gmail.com or [@cmrndp](https://twitter.com/cmrn_dp)
 
+#### Contacto
+Póngase en contacto con el autor principal, CAM DAVIDSON-PILON en cam.davidson.pilon@gmail.com o [@cmrndp] (https://twitter.com/cmrn_dp)
 
 ![Imgur](http://i.imgur.com/Zb79QZb.png)
